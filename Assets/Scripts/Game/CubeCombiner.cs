@@ -31,12 +31,12 @@ namespace Game
             DOTween.Sequence()
                 .Join(cube1.DOMove(middlePosition, duration))
                 .Join(cube2.DOMove(middlePosition, duration))
-                
+
                 .Join(cube2.DORotate(rotation, duration))
-                
+
                 .Join(cube1.DOColor(nextColor, duration))
                 .Join(cube2.DOColor(nextColor, duration))
-                
+
                 .Join(cube1.DONumber(nextNumber, duration))
                 .Join(cube2.DONumber(nextNumber, duration))
 
